@@ -7,8 +7,8 @@ This project demonstrates the implementation of Low-Rank Adaptation (LoRA) for f
 ## Setup
 1. Clone the repository.
    ```bash
-git clone https://github.com/ValentinoWang/THU_SDS_24Spring.git
-cd THU_SDS_24Spring/LoRA_Demo
+   git clone https://github.com/ValentinoWang/THU_SDS_24Spring.git
+   cd THU_SDS_24Spring/LoRA_Demo
     ```
 
 3. Install the required dependencies:
