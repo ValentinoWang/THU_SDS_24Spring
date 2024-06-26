@@ -6,7 +6,12 @@ This project demonstrates the implementation of Low-Rank Adaptation (LoRA) for f
 
 ## Setup
 1. Clone the repository.
-2. Install the required dependencies:
+   ```bash
+git clone https://github.com/ValentinoWang/THU_SDS_24Spring.git
+cd THU_SDS_24Spring/LoRA_Demo
+    ```
+
+3. Install the required dependencies:
     ```bash
     pip install transformers datasets accelerate
     ```
