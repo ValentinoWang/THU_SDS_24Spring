@@ -1,7 +1,7 @@
 
-# Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey
+# Small Demo for LoRA method
 
-## Overview
+# Overview
 This project demonstrates the implementation of Low-Rank Adaptation (LoRA) for fine-tuning large language models using the Hugging Face `transformers` library.
 
 ## Setup
