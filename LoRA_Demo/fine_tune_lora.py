@@ -15,11 +15,9 @@ class LoRALayer(nn.Module):
         self.l = nn.Parameter(torch.randn((rank, output_dim)))
 
     def forward(self, param):
-        # 确保参数形状与 LoRA 层期望的形状匹配
         if param.shape == (self.output_dim, self.input_dim):
             return param + torch.matmul(self.r, self.l).t()
         else:
-            # 如果形状不匹配，直接返回原参数
             return param
 
 class LoRA(nn.Module):
